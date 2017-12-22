@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="487.0" prefWidth="753.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pdv.frentedecaixa.FXMLBuscaProdutoController">
+    <stylesheets>
+        <URL value="@fxmlbuscaproduto.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Código">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="18.0" text="Produto">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="561.0" layoutY="115.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="184.0" text="Buscar (F9)">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <TextField alignment="CENTER_RIGHT" layoutX="14.0" layoutY="45.0" prefHeight="60.0" prefWidth="170.0" style="-fx-background-color: #f4e842;" text="9999999">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="199.0" layoutY="45.0" style="-fx-background-color: #f4e842;" text="Parte nome produto">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <ComboBox layoutX="561.0" layoutY="45.0" prefHeight="60.0" prefWidth="184.0" />
+      <Label layoutX="561.0" layoutY="18.0" text="Filtro">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ListView layoutX="14.0" layoutY="115.0" prefHeight="331.0" prefWidth="531.0" />
+      <Button layoutX="561.0" layoutY="184.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="184.0" text="Importar (I)">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="446.0" prefHeight="34.0" prefWidth="708.0" text="Label" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="13.0" />
+   </children>
+</AnchorPane>

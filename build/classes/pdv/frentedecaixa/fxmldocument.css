@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/12/2017, 08:24:44
+    Author     : Luiz Fernando Reinos
+*/
+
+.campoEditavel{
+    -fx-background-color:  #f4e842;
+}
+
+.campoEditavel:focused{
+    -fx-background-color: #ff3333;
+    -fx-text-fill: #fff;
+}
